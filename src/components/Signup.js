@@ -55,6 +55,7 @@ function Signup() {
                                             margin="normal"
                                             size="small"
                                             helperText={<ErrorMessage name="firstname" />}
+                                            fullWidth
 
                                         />
 
@@ -68,6 +69,7 @@ function Signup() {
                                             margin="normal"
                                             size="small"
                                             helperText={<ErrorMessage name="lastname" />}
+                                            fullWidth
 
                                         />
                                     </Grid>
@@ -109,6 +111,7 @@ function Signup() {
                                             margin="normal"
                                             size="small"
                                             helperText={<ErrorMessage name="email" />}
+                                            fullWidth
 
                                         />
 
@@ -122,6 +125,7 @@ function Signup() {
                                             margin="normal"
                                             size="small"
                                             helperText={<ErrorMessage name="password" />}
+                                            fullWidth
                                         />
 
                                     </Grid>
