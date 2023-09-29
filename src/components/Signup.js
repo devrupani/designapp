@@ -39,7 +39,6 @@ function Signup() {
             <Grid>
                 <Paper elevation={10} style={paperStyle}>
                     <Grid align='center'>
-
                         <Avatar style={colorStyle}><HowToRegIcon></HowToRegIcon></Avatar>
                         <h4><b>Register</b></h4>
                         <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={onSubmit}>
@@ -59,6 +58,7 @@ function Signup() {
 
                                         />
 
+
                                         <Field as={TextField}
                                             name="lastname"
                                             id="standard-basic"
@@ -71,10 +71,8 @@ function Signup() {
 
                                         />
                                     </Grid>
+
                                     <Grid>
-
-
-
                                         <Field as={TextField}
                                             name="contact"
                                             sx={{ marginRight: '10px' }}
@@ -127,7 +125,6 @@ function Signup() {
                                         />
 
                                     </Grid>
-
                                 </FormControl>
                                 <hr />
                                 <Button type='submit' variant="contained" name="register" style={colorStyle} fullWidth margin="20px">Register</Button>
