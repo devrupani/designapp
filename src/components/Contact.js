@@ -1,7 +1,7 @@
 
 
 import { Grid, Paper, Avatar, Typography } from '@mui/material';
-import { LockClockOutlined } from '@mui/icons-material';
+import ContactPageIcon from '@mui/icons-material/ContactPage';
 import { FormControl, TextField, Button } from '@mui/material';
 import { Formik, Form, Field, ErrorMessage } from 'formik'
 import React from 'react';
@@ -42,7 +42,7 @@ function Contact() {
             <Paper elevation={10} style={paperStyle}>
                 <Grid align='center'>
 
-                    <Avatar style={colorStyle}><LockClockOutlined ></LockClockOutlined></Avatar>
+                    <Avatar style={colorStyle}><ContactPageIcon></ContactPageIcon></Avatar>
                     <h4><b>contact</b></h4>
                     <Typography gutterBottom color="textSecondary" varient="body2" component="p">Fill up the form and our team will get back to you within 24hours.</Typography>
                     <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={onSubmit}>
