@@ -159,6 +159,7 @@ function Contact() {
 
                     <Avatar style={colorStyle}><LockClockOutlined ></LockClockOutlined></Avatar>
                     <h4><b>contact</b></h4>
+                    <Typography gutterBottom color="textSecondary" varient="body2" component="p">Fill up the form and our team will get back to you within 24hours.</Typography>
                     <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={onSubmit}>
                         {(props) => (<Form>
                             <FormControl margin="normal" fullWidth required>
