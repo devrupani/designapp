@@ -45,7 +45,7 @@ function About() {
                             <div className="card" style={{ widht: '18rem', backgroundColor: '#21BFBC' }}>
                                 <div className="card-body">
                                     <h5 className="card-title font-poppins fw-bolder">Quality Assurance</h5>
-                                    <p className="card-text">We are committed to delivering high-quality software solutions. Our rigorous testing and validation processes guarantee that the software generated meets the highest standards of performance and reliability.</p>
+                                    <p className="card-text">We are committed to delivering high-quality content software solutions. Our rigorous testing and validation processes guarantee that the software generated meets the highest standards of performance and reliability.</p>
                                 </div>
                             </div>
                         </div>

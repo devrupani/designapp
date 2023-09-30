@@ -32,7 +32,7 @@ function Home() {
                                 <Avatar style={colorStyle}><RocketLaunchOutlinedIcon></RocketLaunchOutlinedIcon></Avatar>
                                 <h5 class="card-title font-poppins  mt-4"><b>More than a certificate maker</b></h5>
                                 <p class="card-text mt-3">
-                                    We’re not just a certificate maker. Certifier is an all-in-one solution for all aspects of digital certification, from certificate designs to issuing and tracking.
+                                    We’re not just a certificate maker. Certificate-Gen is an all-in-one solution for all aspects of digital certification, from certificate designs to issuing and tracking.
                                 </p>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ function Home() {
                                 <Avatar style={colorStyle}><JoinFullIcon></JoinFullIcon></Avatar>
                                 <h5 class="card-title font-poppins mt-4"><b>Best value at a competitive price</b></h5>
 
-                                <p class="card-text mt-3">Certifier offers a quick and easy way to manage your entire certification issuing process at the best value for a competitive price.</p>
+                                <p class="card-text mt-3">Certificate-Gen offers a quick and easy way to manage your entire certification issuing process at the best value for a competitive price.</p>
                             </div>
                         </div>
                     </div>
