@@ -44,11 +44,10 @@ function Contact() {
 
                     <Avatar style={colorStyle}><ContactPageIcon></ContactPageIcon></Avatar>
                     <h4><b>contact</b></h4>
-                    <Typography gutterBottom color="textSecondary" varient="body2" component="p">Fill up the form and our team will get back to you within 24hours.</Typography>
+                    <Typography gutterBottom color="textSecondary" varient="xbody2" component="p">Fill up the form and our team will get back to you within 24hours.</Typography>
                     <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={onSubmit}>
                         {(props) => (<Form>
                             <FormControl margin="normal" fullWidth required>
-
                                 <Field as={TextField}
                                     name="firstname"
                                     sx={{ marginRight: '10px' }}
@@ -61,7 +60,6 @@ function Contact() {
                                     helperText={<ErrorMessage name="firstname" />}
 
                                 />
-
 
                                 <Field as={TextField}
                                     name="lastname"
@@ -119,12 +117,6 @@ function Contact() {
                             <hr />
                             <Button type="submit" variant="contained" name="msg" style={colorStyle} fullWidth margin="20px" >Submit</Button>
                             {/* <Button type="submit" variant="contained" name="login" style={colorStyle} fullWidth margin="20px">Login</Button> */}
-
-
-
-
-
-
                         </Form>
                         )}
                     </Formik >
